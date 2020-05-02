@@ -25,6 +25,11 @@ export const appMenuTemplate = {
             type: 'separator',
         },
         {
+            label: 'Close',
+            accelerator: 'Command+W',
+            click: () => app.hide()
+        },
+        {
             label: 'Quit',
             accelerator: 'Command+Q',
             click: () => app.quit(),
